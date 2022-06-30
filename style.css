@@ -4,18 +4,21 @@
   --box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
 }
 body {
-  background-color: aqua;
-  margin: 60px auto;
+  background: linear-gradient(to top, #dad4ec 0%, #dad4ec 1%, #f3e7e9 100%);
   max-width: 800px;
 }
 
 h1 {
   color: firebrick;
   size: 48px;
+   font-family: 'Arima', cursive;
+  
 }
 
 h2 {
   size: 90px;
+ 
+  font-family: 'Splash', cursive;
 }
 
 h3 {
@@ -34,6 +37,8 @@ p {
   text-align: center;
   display: flex;
   margin : 10px;
+  justify-content: space-evenly;
+  display: flex;
 }
 button {
 
