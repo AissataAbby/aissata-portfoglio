@@ -1,6 +1,76 @@
+:root {
+  --primary-color: #6c63ff;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+}
 body {
   background-color: aqua;
+  margin: 60px auto;
+  max-width: 800px;
 }
+
 h1 {
   color: firebrick;
+  size: 48px;
+}
+
+h2 {
+  size: 90px;
+}
+
+h3 {
+  size: 24px;
+}
+h1 h2 {
+  text-align: center;
+}
+
+p {
+  background-color: var(--secondary-color);
+  padding: 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  line-height: 1, 5;
+  text-align: center;
+  display: flex;
+  margin : 10px;
+}
+button {
+
+padding: 10px;
+text-decoration: none;
+}
+
+button :hover{
+
+  text-decoration: underline;
+}
+
+button :focus {
+
+  color :aquamarine;
+}
+
+.navigation-links {
+  display: flex;
+}
+.about-paragraph p {
+  margin: 10px;
+  background-color: var(--secondary-color);
+}
+.contact-me {
+  color: #fff;
+  background-color: #6c63ff;
+  margin: 20px;
+  padding: 20px 15px;
+}
+.about-me {
+  color: #6c63ff
+  background-color: #fff
+  margin: 20px;
+  padding: 20px 15px;
+}
+
+.contact {
+  size: 40px;
 }
