@@ -44,6 +44,7 @@ p {
 
 .navigation-links {
   display: flex;
+
 }
 .about-paragraph p {
   margin: 10px;
@@ -58,15 +59,18 @@ p {
   text-align: center;
   text-decoration-style: none;
 }
+
+.info-about-me
+{
+  display: flex;
+  justify-content: space-evenly;
+ 
+}
  .about-me {
   color: #6c63ff
   background-color: #fff
   margin: 20px;
   padding: 20px 15px;
   
-}
-.about-paragraph p
-{
-  display: flex;
-  margin: 0 auto;
+
 }
