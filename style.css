@@ -4,7 +4,7 @@
   --box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
 }
 body {
-  background: linear-gradient(to top, #dad4ec 0%, #dad4ec 1%, #f3e7e9 100%);
+
   max-width: 800px;
 }
 
@@ -23,8 +23,9 @@ h2 {
 
 h3 {
   size: 24px;
+
 }
-h1 h2 {
+h1, h2, h3{
   text-align: center;
 }
 
@@ -40,21 +41,6 @@ p {
   justify-content: space-evenly;
   display: flex;
 }
-button {
-
-padding: 10px;
-text-decoration: none;
-}
-
-button :hover{
-
-  text-decoration: underline;
-}
-
-button :focus {
-
-  color :aquamarine;
-}
 
 .navigation-links {
   display: flex;
@@ -62,20 +48,25 @@ button :focus {
 .about-paragraph p {
   margin: 10px;
   background-color: var(--secondary-color);
+  text-decoration-style: none;
 }
 .contact-me {
   color: #fff;
   background-color: #6c63ff;
   margin: 20px;
   padding: 20px 15px;
+  text-align: center;
+  text-decoration-style: none;
 }
-.about-me {
+ .about-me {
   color: #6c63ff
   background-color: #fff
   margin: 20px;
   padding: 20px 15px;
+  
 }
-
-.contact {
-  size: 40px;
+.about-paragraph p
+{
+  display: flex;
+  margin: 0 auto;
 }
