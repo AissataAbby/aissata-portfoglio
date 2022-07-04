@@ -4,28 +4,27 @@
   --box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
 }
 body {
-
   max-width: 800px;
 }
 
 h1 {
   color: firebrick;
   size: 48px;
-   font-family: 'Arima', cursive;
-  
+  font-family: "Arima", cursive;
 }
 
 h2 {
   size: 90px;
- 
-  font-family: 'Splash', cursive;
+
+  font-family: "Splash", cursive;
 }
 
 h3 {
   size: 24px;
-
 }
-h1, h2, h3{
+h1,
+h2,
+h3 {
   text-align: center;
 }
 
@@ -37,14 +36,13 @@ p {
   line-height: 1, 5;
   text-align: center;
   display: flex;
-  margin : 10px;
+  margin: 10px;
   justify-content: space-evenly;
   display: flex;
 }
 
 .navigation-links {
   display: flex;
-
 }
 .about-paragraph p {
   margin: 10px;
@@ -60,17 +58,13 @@ p {
   text-decoration-style: none;
 }
 
-.info-about-me
-{
+.info-about-me {
   display: flex;
   justify-content: space-evenly;
- 
 }
- .about-me {
-  color: #6c63ff
-  background-color: #fff
+.about-me {
+  color: #6c63ff;
+  background-color: #fff;
   margin: 20px;
   padding: 20px 15px;
-  
-
 }
