@@ -1,48 +1,39 @@
 :root {
   --primary-color: #6c63ff;
   --secondary-color: #f5f2fe;
-  --box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
+
 body {
-  max-width: 800px auto;
-  margin: 60px;
+  margin: 60px auto;
+  max-width: 800px;
+  margin-top: 100px;
 }
 
-h1 {
-  color: firebrick;
-  size: 48px;
-  font-family: "Arima", cursive;
-  margin-bottom: 5px;
-}
-
-h2 {
-  size: 96px;
-  margin-top: 5px;
-  font-family: "Splash", cursive;
-}
-
-h3 {
-  size: 24px;
-  margin: 0;
-  opacity: 0.7;
-}
 h1,
 h2,
 h3 {
   text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-size: 96px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 24px;
+  opacity: 0.7;
 }
 
 p {
-  background-color: var(--secondary-color);
-  padding: 20px;
-  border-radius: 5px;
   font-size: 18px;
-  line-height: 1, 5;
+  line-height: 1.5;
   text-align: center;
-  display: flex;
-  margin: 10px;
-  justify-content: space-evenly;
-  display: flex;
 }
 
 .navigation-links {
@@ -59,50 +50,50 @@ p {
   text-transform: capitalize;
 }
 
-.about-paragraph p {
-  margin: 10px;
-  background-color: var(--secondary-color);
-  justify-content: space-between;
-  display: flex;
-  margin-top: 30px;
-}
-.contact-me {
+.primary-link {
   color: #fff;
   background-color: var(--primary-color);
   margin: 10px;
   text-align: center;
   display: block;
   box-shadow: var(--box-shadow);
+  border-radius: 4px;
+  padding: 20px 15px;
+  margin-top: 30px;
+  text-decoration: none;
+  text-transform: capitalize;
 }
 
-.info-about-me {
-  display: flex;
-  justify-content: space-evenly;
-}
-.about-me {
+.secondary-link {
   color: var(--primary-color);
-  background-color: #fff;
-  margin: 20px;
-  border: 1px solid #6c63ff;
+  border: 1px solid var(--primary-color);
 }
+
 .homepage-link {
   color: var(--primary-color);
   text-align: center;
   display: block;
 }
-.contact-me-section {
-  text-align: center;
-  display: block;
+
+.about-paragraphs {
+  margin: 30px 0;
 }
+
+.about-paragraphs p {
+  margin: 10px;
+}
+
 .email-link {
-  text-align: center;
-  display: block;
+  display: flex;
+  justify-content: center;
   color: var(--primary-color);
   font-size: 28px;
   text-decoration: none;
-  display: flex;
-  justify-content: center;
 }
-.email-link :hover {
+
+.email-link:hover {
   text-decoration: underline;
+}
+.img-yog {
+  size: 300px;
 }
