@@ -97,3 +97,10 @@ p {
 .img-yog {
   size: 300px;
 }
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 18px;
+    text-align: center;
+  }
+}
